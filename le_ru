@@ -1,0 +1,82 @@
+// ┌─────┬─────┬─────┬─────┬─────┬─────┬─────┬─────┬─────┬─────┬─────┬─────┬─────┲━━━━━━━━━┓
+// │ Ё   │ !   │ "   │ №   │ ;   │ %   │ :   │ ?   │ *   │ (   │ )   │ _   │ +   ┃ ⌫       ┃
+// │ ё  ́ │ 1   │ 2   │ 3   │ 4   │ 5   │ 6   │ 7   │ 8   │ 9   │ 0   │ -   │ =   ┃Backspace┃ 
+// ┢━━━━━┷━┱───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┺━┳━━━━━━━┫
+// ┃       ┃ Й   │ Я   │ У   │ Г   │ Ц   │  Ч  │ З   │ Л   │ Д   │ К   │ Ш   │ Щ   ┃ Enter ┃
+// ┃ Tab ↹ ┃ й   │ я   │ у   │ г   │ ц   │  ч  │ з   │ л   │ д   │ к   │ ш   │ щ   ┃   ⏎   ┃
+// ┣━━━━━━━┻┱────┴┬────┴┬────┴┬────┴┬────┴┬────┴┬────┴┬────┴┬────┴┬────┴┬────┴┬────┺┓      ┃
+// ┃ Caps   ┃ И   │ Е   │ А   │ О   │ Ж   │ М   │ С   │ Т   │ Н   │ Р   │ Э   │ Ъ   ┃      ┃
+// ┃ Lock ⇬ ┃ и   │ е   │ а   │ о   │ ж   │ м   │ с   │ т   │ н   │ р   │ э   │ ъ   ┃      ┃
+// ┣━━━━━━━━┻━┱───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┴─┲━━━┷━━━━━┻━━━━━━┫
+// ┃          ┃ Ю   │ Ы   │ Ь   │ Х   │ Ф   │ В   │ П   │ «   │ »   │ Б   ┃                ┃
+// ┃  Shift ⇧ ┃ ю   │ ы   │ ь   │ х   │ ф   │ в   │ п   │ ,   │ .   │ б   ┃     Shift ⇧    ┃
+// ┣━━━━━━━┳━━┻━━━━┳┷━━━━━┷┱────┴─────┴─────┴─────┴─────┴─────┴┲━━━━┷━━┳━━┻━━━━┳━━━━━━━┳━━━┛
+// ┃       ┃       ┃       ┃                                   ┃       ┃       ┃       ┃
+// ┃ Ctrl  ┃ Meta  ┃  Alt  ┃                Space              ┃AltGr ⇮┃ Menu  ┃ Ctrl  ┃
+// ┗━━━━━━━┻━━━━━━━┻━━━━━━━┹───────────────────────────────────┺━━━━━━━┻━━━━━━━┻━━━━━━━┛
+partial default alphanumeric_keys
+xkb_symbols "le_ru" { 
+
+    name[Group1]= "Le russian keyboard layout";
+    
+    key <AE01> { [           1,      exclam  ] };
+    key <AE02> { [           2,    quotedbl  ] };
+    key <AE03> { [           3,  numbersign  ] };
+    key <AE04> { [           4,    asterisk  ] };
+    key <AE05> { [           5,       colon  ] };
+    key <AE06> { [           6,       comma  ] };
+    key <AE07> { [           7,      period  ] };
+    key <AE08> { [           8,   semicolon  ] };
+    key <AE09> { [           9,   parenleft  ] };
+    key <AE10> { [           0,  parenright  ] };
+    key <AE11> { [       minus,  underscore  ] };
+    key <AE12> { [       equal,        plus  ] };
+    
+    key <BKSL> { [ Cyrillic_hardsign, Cyrillic_HARDSIGN  ] };
+
+
+    key <TLDE> { [       Cyrillic_io,       Cyrillic_IO  ] };
+    key <AD01> { [   Cyrillic_shorti,   Cyrillic_SHORTI  ] };
+    key <AD02> { [       Cyrillic_ya,       Cyrillic_YA  ] };
+    key <AD03> { [        Cyrillic_u,        Cyrillic_U  ] };
+    key <AD04> { [      Cyrillic_ghe,      Cyrillic_GHE  ] };
+    key <AD05> { [      Cyrillic_tse,      Cyrillic_TSE  ] };
+    key <AD06> { [      Cyrillic_che,      Cyrillic_CHE  ] };
+    key <AD07> { [       Cyrillic_ze,       Cyrillic_ZE  ] };
+    key <AD08> { [       Cyrillic_el,       Cyrillic_EL  ] };
+    key <AD09> { [       Cyrillic_de,       Cyrillic_DE  ] };
+    key <AD10> { [       Cyrillic_ka,       Cyrillic_KA  ] };
+    key <AD11> { [      Cyrillic_sha,      Cyrillic_SHA  ] };
+    key <AD12> { [    Cyrillic_shcha,    Cyrillic_SHCHA  ] };
+
+    key <AC01> { [        Cyrillic_i,        Cyrillic_I  ] };
+    key <AC02> { [       Cyrillic_ie,       Cyrillic_IE  ] };
+    key <AC03> { [        Cyrillic_a,        Cyrillic_A  ] };
+    key <AC04> { [        Cyrillic_o,        Cyrillic_O  ] };
+    key <AC05> { [      Cyrillic_zhe,      Cyrillic_ZHE  ] };
+    key <AC06> { [       Cyrillic_em,       Cyrillic_EM  ] };
+    key <AC07> { [       Cyrillic_es,       Cyrillic_ES  ] };
+    key <AC08> { [       Cyrillic_te,       Cyrillic_TE  ] };
+    key <AC09> { [       Cyrillic_en,       Cyrillic_EN  ] };
+    key <AC10> { [       Cyrillic_er,       Cyrillic_ER  ] };
+    key <AC11> { [        Cyrillic_e,        Cyrillic_E  ] };
+
+    key <AB01> { [       Cyrillic_yu,       Cyrillic_YU  ] };
+    key <AB02> { [     Cyrillic_yeru,     Cyrillic_YERU  ] };
+    key <AB03> { [ Cyrillic_softsign, Cyrillic_SOFTSIGN  ] };
+    key <AB04> { [       Cyrillic_ha,       Cyrillic_HA  ] };
+    key <AB05> { [       Cyrillic_ef,       Cyrillic_EF  ] };
+    key <AB06> { [       Cyrillic_ve,       Cyrillic_VE  ] };
+    key <AB07> { [       Cyrillic_pe,       Cyrillic_PE  ] };
+    key <AB08> { [       comma,      guillemotleft   ] };
+    key <AB09> { [       period,       guillemotright  ] };
+    key <AB10> { [       Cyrillic_be,   Cyrillic_BE  ] };
+
+    key <SPCE> {   [ space,             space,
+                   nobreakspace,      nobreakspace        ]    };
+    key <JPCM> {   [ space,             space,
+                   nobreakspace,      nobreakspace        ]    };
+
+    key <KPDL> {   type[Group1] = "KEYPAD",
+                 [ KP_Delete,         period        ]    };
+};

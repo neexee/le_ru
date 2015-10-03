@@ -1,0 +1,14 @@
+    <layout>
+      <variantList>
+ 	<variant>
+          <configItem>
+            <name>Rusian</name>         
+            <shortDescription>le_ru</shortDescription>
+            <description>Russian(Testing layout)</description>
+            <languageList>
+              <iso639Id>rus</iso639Id>
+            </languageList>
+          </configItem>
+        </variant>
+    </variantList>
+    </layout>
