@@ -2,11 +2,11 @@
 // │ Ё   │ !   │ "   │ №   │ ;   │ %   │ :   │ ?   │ *   │ (   │ )   │ _   │ +   ┃ ⌫       ┃
 // │ ё  ́ │ 1   │ 2   │ 3   │ 4   │ 5   │ 6   │ 7   │ 8   │ 9   │ 0   │ -   │ =   ┃Backspace┃ 
 // ┢━━━━━┷━┱───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┺━┳━━━━━━━┫
-// ┃       ┃ Й   │ Я   │ У   │ Г   │ Ц   │  Ч  │ З   │ Л   │ Д   │ К   │ Ш   │ Щ   ┃ Enter ┃
-// ┃ Tab ↹ ┃ й   │ я   │ у   │ г   │ ц   │  ч  │ з   │ л   │ д   │ к   │ ш   │ щ   ┃   ⏎   ┃
+// ┃       ┃ Й   │ Я   │ У   │ Г   │ Ц   │  Ч  │ З   │ Л   │ Д   │ Ж   │ Ш   │ Щ   ┃ Enter ┃
+// ┃ Tab ↹ ┃ й   │ я   │ у   │ г   │ ц   │  ч  │ з   │ л   │ д   │ ж   │ ш   │ щ   ┃   ⏎   ┃
 // ┣━━━━━━━┻┱────┴┬────┴┬────┴┬────┴┬────┴┬────┴┬────┴┬────┴┬────┴┬────┴┬────┴┬────┺┓      ┃
-// ┃ Caps   ┃ И   │ Е   │ А   │ О   │ Ж   │ М   │ С   │ Т   │ Н   │ Р   │ Э   │ Ъ   ┃      ┃
-// ┃ Lock ⇬ ┃ и   │ е   │ а   │ о   │ ж   │ м   │ с   │ т   │ н   │ р   │ э   │ ъ   ┃      ┃
+// ┃ Caps   ┃ И   │ Е   │ А   │ О   │ К   │ М   │ С   │ Т   │ Н   │ Р   │ Э   │ Ъ   ┃      ┃
+// ┃ Lock ⇬ ┃ и   │ е   │ а   │ о   │ к   │ м   │ с   │ т   │ н   │ р   │ э   │ ъ   ┃      ┃
 // ┣━━━━━━━━┻━┱───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┴─┲━━━┷━━━━━┻━━━━━━┫
 // ┃          ┃ Ю   │ Ы   │ Ь   │ Х   │ Ф   │ В   │ П   │ «   │ »   │ Б   ┃                ┃
 // ┃  Shift ⇧ ┃ ю   │ ы   │ ь   │ х   │ ф   │ в   │ п   │ ,   │ .   │ б   ┃     Shift ⇧    ┃
@@ -45,7 +45,7 @@ xkb_symbols "le_ru" {
     key <AD07> { [       Cyrillic_ze,       Cyrillic_ZE  ] };
     key <AD08> { [       Cyrillic_el,       Cyrillic_EL  ] };
     key <AD09> { [       Cyrillic_de,       Cyrillic_DE  ] };
-    key <AD10> { [       Cyrillic_ka,       Cyrillic_KA  ] };
+    key <AD10> { [      Cyrillic_zhe,      Cyrillic_ZHE  ] };
     key <AD11> { [      Cyrillic_sha,      Cyrillic_SHA  ] };
     key <AD12> { [    Cyrillic_shcha,    Cyrillic_SHCHA  ] };
 
@@ -53,7 +53,7 @@ xkb_symbols "le_ru" {
     key <AC02> { [       Cyrillic_ie,       Cyrillic_IE  ] };
     key <AC03> { [        Cyrillic_a,        Cyrillic_A  ] };
     key <AC04> { [        Cyrillic_o,        Cyrillic_O  ] };
-    key <AC05> { [      Cyrillic_zhe,      Cyrillic_ZHE  ] };
+    key <AC05> { [       Cyrillic_ka,       Cyrillic_KA  ] };
     key <AC06> { [       Cyrillic_em,       Cyrillic_EM  ] };
     key <AC07> { [       Cyrillic_es,       Cyrillic_ES  ] };
     key <AC08> { [       Cyrillic_te,       Cyrillic_TE  ] };
